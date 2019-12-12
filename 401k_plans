@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Achieve test | EVERFI EMBED | Speed Test</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="Nothing but the embed stuff.">
+    <meta name="keywords"
+          content="agile development, agile, scrum, extreme programming, usability, interaction design, user interface, user experience, product management, product marketing, market research, software, web applications, internet, product design, outsource, independent contractor">
+    <meta name="robots"
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="ADL_flex.css"/>
+    <link rel="shortcut icon" href="https://agiledesignlabs.com/ADLFavIcon.png">
+    <script type="text/javascript">
+        // detect CSS display:flex support in JavaScript. Redirect if NOT supported
+        var detector = document.createElement("detect");
+        detector.style.display = "flex";
+        if (detector.style.display.toLowerCase() === "flex") {
+            console.log("Display value: CSS flex is supported");
+        }
+        else {
+            detector.style.display = "-webkit-flex";
+            if (detector.style.display.toLowerCase() === "-webkit-flex") {
+                console.log("Display value: CSS -webkit-flex is supported");
+            }
+            else {
+                console.log("Display value: CSS flexbox is not supported");
+                self.location = "https://alisonbock-fi.github.io/achieve_embed_test/";
+            }
+            ;
+        }
+        ;
+    </script>
+    <script type="text/javascript">
+        // detect browser versions that have poor support for flexbox and redirect
+        // IE
+        if (navigator.appName === "Microsoft Internet Explorer") {
+            self.location = "https://alisonbock-fi.github.io/achieve_embed_test/";
+        }
+        ;
+        // Firefox 27 & earlier
+        if (navigator.userAgent.toLowerCase().indexOf("firefox") != -1) {
+            ffSlicePos = navigator.userAgent.toLowerCase().indexOf("firefox") + 8;
+            ffVersion = navigator.userAgent.toLowerCase().slice(ffSlicePos, ffSlicePos + 2);
+            if (parseInt(ffVersion, 10) <= 27) {
+                self.location = "https://alisonbock-fi.github.io/achieve_embed_test/";
+            }
+            ;
+        }
+        ;
+    </script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</head>
+
+<body>
+    <section>
+                <div id="everfi-embed-wide" style="height:90vh; width:90vw; margin: 40px 3vw;">
+                         
+<script src="https://everfi-next-sandbox.net/embed_script.js"
+        id="everfi-program-content-iframer"
+        data-account="hadleys-hope"
+        data-program="achieve"
+        data-playlist="achieve-load-time-test"
+        data-module="109"
+        data-script_id="everfi-program-content-iframer"></script>
+        
+                </div><!-- end everfi-embed -->
+    </section>
+</body>
+</html>
