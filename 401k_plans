@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Achieve test | EVERFI EMBED | Speed Test</title>
+    <title>Agile Design Labs | EVERFI EMBED | Speed Test</title>
     <meta charset="UTF-8">
     <meta name="description"
           content="Nothing but the embed stuff.">
@@ -25,7 +25,7 @@
             }
             else {
                 console.log("Display value: CSS flexbox is not supported");
-                self.location = "https://alisonbock-fi.github.io/achieve_embed_test/";
+                self.location = "http://www.agiledesignlabs.com/noflex.php";
             }
             ;
         }
@@ -35,7 +35,7 @@
         // detect browser versions that have poor support for flexbox and redirect
         // IE
         if (navigator.appName === "Microsoft Internet Explorer") {
-            self.location = "https://alisonbock-fi.github.io/achieve_embed_test/";
+            self.location = "http://www.agiledesignlabs.com/noflex.php";
         }
         ;
         // Firefox 27 & earlier
@@ -43,7 +43,7 @@
             ffSlicePos = navigator.userAgent.toLowerCase().indexOf("firefox") + 8;
             ffVersion = navigator.userAgent.toLowerCase().slice(ffSlicePos, ffSlicePos + 2);
             if (parseInt(ffVersion, 10) <= 27) {
-                self.location = "https://alisonbock-fi.github.io/achieve_embed_test/";
+                self.location = "http://www.agiledesignlabs.com/noflex.php";
             }
             ;
         }
@@ -58,12 +58,14 @@
 <body>
     <section>
                 <div id="everfi-embed-wide" style="height:90vh; width:90vw; margin: 40px 3vw;">
-                         
+                    
+<!-- Below is the JS script tag where you can modify the parameters to point to the right account, program, playlist, and content id. -->           
+     
 <script src="https://everfi-next-sandbox.net/embed_script.js"
         id="everfi-program-content-iframer"
-        data-account="hadleys-hope"
-        data-program="achieve"
-        data-playlist="achieve-load-time-test"
+        data-account="agiledesignlabs"
+        data-program="acheive"
+        data-playlist="agiledesignlabs-achieve-test"
         data-module="109"
         data-script_id="everfi-program-content-iframer"></script>
         
